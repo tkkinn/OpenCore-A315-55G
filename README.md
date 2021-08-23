@@ -1,47 +1,79 @@
-# OpenCore EFI for Acer A315-55G
+# Acer Aspire VX15 Hackintosh
 
-[香港繁體](https://github.com/tkkinn/OpenCore-A315-55G/blob/main/README_zh-hk.md)
+![Specs](/image.png)
 
-## Please Read First
-This model has four types of CPUs 
--  Intel Core i5-8265U
--  Intel Core i5-10210U
--  Intel Core i3-8145U
--  Intel Core i3-10110U
+__My Specs__
 
-This EFI has not been tested on 8th gen yet. 
+| Specs | Details |
+|------------|-------------------------------|
+| Model | Acer Aspire 3 A315-55G-51C1 |
+| OS | macOS Big Sur && Windows 11  |
+| CPU | Intel(R) Core(TM) i5 i5-10210U |
+| RAM | 8 GB DDR4 2666MHz |
+| iGPU | Intel UHD Graphics 620 |
+| dGPU | NVIDIA GeForce MX230 |
+| Wireless | Dell Wireless 1820A |
+| Audio | ALC255 |
 
-NVIDIA GPU is not supported, it has been disabled with boot-args `-wegnoegpu` 
+__Tested and working__
 
-After successful installation, you should edit the SMBIOS  
-**DO NOT LOGIN YOUR APPLE ID BEFORE YOU EDIT SMBIOS**  
+- [x] Intel UHD Graphics 620
+- [x] USB
+- [x] Webcam
+- [x] LAN
+- [x] Screen brightness
+- [x] Battery status
+- [x] Sleep/Wake
+- [x] TouchPad with gestures
+- [x] WiFi
+- [x] Bluetooth
+- [x] HDMI + HDMI Audio
+- [x] Airdrop + Handoff
+- [x] Audio + Headphone + Internal Mic
+- [x] Keyboard with backlight (Some function keys not work)
+- [x] iServices
 
-[BIOS Setting](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake.html#intel-bios-settings)  
-[Disclaimer](https://github.com/tkkinn/OpenCore-A315-55G/blob/main/Docs/Disclaimer.md)  
-[Testing Platform](https://github.com/tkkinn/OpenCore-A315-55G/blob/main/Docs/Testing_Platform.md)
+__Not working__
 
-## What doesn't work
-Qualcomm Atheros QCA9377 Wireless Network Adapter  
-NVIDIA GeForce MX230 2GB GDDR5  
-  
-DW1820A is recommended to replace QCA9377
+- [ ] NVIDIA GeForce MX230
 
-## Current Version
-OpenCore 0.7.2  
-MacOS Big Sur 11.5.2  
+## Guide
 
-## Update 
-2021/08/15 Update
-- Update to OpenCore 0.7.2
-- Update all kext  
-- Change AppleALC layout-id to 71  
-- OTA Update is work in MacOS 11  
-  
-2021/06/22 Update  
-- Update to OpenCore 0.7.0
+__BIOS Settings__
+
+- Set Supervisor Password
+- Disable Secure Boot
+
+__OpenCore config__
+
+- Follow these instructions to configure your OpenCore: https://dortania.github.io/OpenCore-Install-Guide/  
+- ACPI Hotpatch: https://github.com/daliansky/OC-little  
+- Audio layout ID 71
+
+__Install MacOS__
+
+- Create bootable USB: https://dortania.github.io/OpenCore-Install-Guide/installer-guide/  
+- If you have problems installing Catalina or later. Install Mojave then you can update to newer version.
+
+__USB Mapping__
+
+- USB Mapping: https://github.com/corpnewt/USBMap
+
+__Fix iServices__
+
+- Fix iServices: https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html
 
 
-## Thanks
-[Acidanthera](https://github.com/acidanthera) - OpenCore and other kext  
-[alexandred](https://github.com/alexandred) - VoodooI2C  
-[daliansky](https://github.com/daliansky) - OC litte  
+__Fix Dual Boot__
+
+- Fix timezone: https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/  
+
+__UEFI Secure Boot__
+- Setting: https://tkkinn.gitbook.io/opencore-uefi-secureboot-guide/
+
+
+## Credits
+
+Thanks to Acidanthera, RehabMan, dortania, alexandred, daliansky, OpenIntelWireless
+
+
