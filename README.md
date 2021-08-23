@@ -1,6 +1,4 @@
-# Acer Aspire VX15 Hackintosh
-
-![Specs](/image.png)
+# Acer Aspire 3 A315-55G Hackintosh
 
 __My Specs__
 
