@@ -1,4 +1,4 @@
-# Title
+# OpenCore ACER A315-55G
 
 ![banner](banner.png)
 
