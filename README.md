@@ -1,4 +1,11 @@
-# Acer Aspire 3 A315-55G Hackintosh
+# Title
+
+![banner](banner.png)
+
+[![license](https://img.shields.io/github/license/:user/:repo.svg)](LICENSE)
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+
+
 
 __My Specs__
 
@@ -22,7 +29,6 @@ __Tested and working__
 - [x] Screen brightness
 - [x] Battery status
 - [x] Sleep/Wake
-- [x] TouchPad with gestures
 - [x] WiFi
 - [x] Bluetooth
 - [x] HDMI + HDMI Audio
@@ -33,7 +39,9 @@ __Tested and working__
 
 __Not working__
 
+- [ ] TouchPad with gestures
 - [ ] NVIDIA GeForce MX230
+
 
 ## Guide
 
@@ -72,6 +80,4 @@ __UEFI Secure Boot__
 
 ## Credits
 
-Thanks to Acidanthera, RehabMan, dortania, alexandred, daliansky, OpenIntelWireless
-
-
+Thanks to Acidanthera, RehabMan, dortania, alexandred, daliansky
