@@ -2,7 +2,7 @@
 
 ![banner](banner.png)
 
-[![license](https://img.shields.io/github/license/:user/:repo.svg)](LICENSE)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
 
@@ -12,7 +12,7 @@ __My Specs__
 | Specs | Details |
 |------------|-------------------------------|
 | Model | Acer Aspire 3 A315-55G-51C1 |
-| OS | macOS Big Sur && Windows 11  |
+| OS | macOS Monterey && Windows 11  |
 | CPU | Intel(R) Core(TM) i5 i5-10210U |
 | RAM | 8 GB DDR4 2666MHz |
 | iGPU | Intel UHD Graphics 620 |
@@ -34,12 +34,12 @@ __Tested and working__
 - [x] HDMI + HDMI Audio
 - [x] Airdrop + Handoff
 - [x] Audio + Headphone + Internal Mic
-- [x] Keyboard with backlight (Some function keys not work)
+- [x] Keyboard (Some function keys not work)
 - [x] iServices
+- [x] TouchPad with gestures 
 
 __Not working__
 
-- [ ] TouchPad with gestures
 - [ ] NVIDIA GeForce MX230
 
 
@@ -49,6 +49,7 @@ __BIOS Settings__
 
 - Set Supervisor Password
 - Disable Secure Boot
+- Disable CFG Lock
 
 __OpenCore config__
 
@@ -75,8 +76,17 @@ __Fix Dual Boot__
 - Fix timezone: https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/  
 
 __UEFI Secure Boot__
+
 - Setting: https://tkkinn.gitbook.io/opencore-uefi-secureboot-guide/
 
+
+## Disclaimer
+
+According to Apple Inc., use this EFI to run macOS or OSX on a non-Apple-branded computer as known as "Hackintosh" are illegal, per the [Digital Millenium Copyright Act](https://www.copyright.gov/dmca/). In addition, creating a "Hackintosh" computer violates [Software License Agreement](https://www.apple.com/legal/sla/docs/macOSMonterey.pdf) for any operating systen in the OSX family.
+
+If you use this EFI for commercial or public use, you may be arrested by local law enforcement agencies or sued by Apple Inc. **This EFI is for educational use only**.
+
+If you choose to use this EFI, it means that you agree to take the risk of using this EFI. This EFI is unstable, it may break your laptop and need to send it in for repair. I'm not responsile for any loss caused by the use of this EFI. **USE IN YOUR OWN RISK**
 
 ## Credits
 
