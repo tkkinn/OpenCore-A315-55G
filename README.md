@@ -1,5 +1,8 @@
 # OpenCore ACER A315-55G
 
+**This project is no long updated, end support at OpenCore 0.7.6**
+**Archived in 2022**
+
 ![banner](banner.png)
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
