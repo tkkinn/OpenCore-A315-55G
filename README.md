@@ -1,6 +1,6 @@
 # OpenCore ACER A315-55G
 
-**This project is no long updated, end support at OpenCore 0.7.6**
+**This project is no long updated, end support at OpenCore 0.7.6**. 
 **Archived in 2022**
 
 ![banner](banner.png)
